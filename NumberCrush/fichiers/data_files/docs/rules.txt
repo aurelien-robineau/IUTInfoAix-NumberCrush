@@ -1,0 +1,11 @@
+﻿Tu dois aligner un nombre specifique d'un meme chiffre pour gagner des points.
+Cette suite de chiffre sera supprimee, remontee, puis remplacee par de nouveaux nombres.
+Les bombes, representee par 'B!', font disparaitre leur ligne d'arrivee entre les deux murs qui l'entourent.
+Pour les declencher il faut selectionner la case de la bombe puis la deplacer.
+Les jokers, representes par '* ', peuvent etre utilises comme n'importe quel nombre.
+Les blocs, representes par '[]', ne peuvent pas etre deplaces ni constituer de suites.
+Ils sont soumis a la gravite.
+Les murs, representes par des cases noires, sont des blocs indestructibles non soumis a la gravite.
+Ils empechent les bonbons du dessus de tomber.
+Chaque type de bonbon est associe a un bonbon d'or, represente par la veleur du bonbon couleur or sur fond noir.
+Lorsqu'un de ces bonbons est inclu dans une suite, tous les bonbons du meme type disparaissent.

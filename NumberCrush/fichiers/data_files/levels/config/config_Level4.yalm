@@ -1,0 +1,13 @@
+NbOfColumns : 12
+NbOfLines : 5
+HowMany : 3
+NbCandies : 6
+Attempts : 20
+ScoreMin : 3500
+BombsActivated : 1
+JokersActivated : 0
+BlocksActivated : 1
+GoldenCandiesActivated : 0
+WallPositions : 
+[
+]

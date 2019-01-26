@@ -1,0 +1,29 @@
+NbOfColumns : 10
+NbOfLines : 6
+HowMany : 3
+NbCandies : 6
+Attempts : 10
+ScoreMin : 0
+BombsActivated : 0
+JokersActivated : 0
+BlocksActivated : 0
+GoldenCandiesActivated : 0
+WallPositions :
+[
+0 ; 0
+0 ; 1
+0 ; 8
+0 ; 9
+1 ; 0
+1 ; 9
+2 ; 4
+2 ; 5
+3 ; 4
+3 ; 5
+4 ; 0
+4 ; 9
+5 ; 0
+5 ; 1
+5 ; 8
+5 ; 9
+]

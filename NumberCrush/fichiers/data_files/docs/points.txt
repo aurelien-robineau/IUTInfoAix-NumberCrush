@@ -1,0 +1,5 @@
+Une suite composee du nombre minimal de chiffres rapporte 100 points.
+Chaque nombre supplementaire rapporte (100/taille minimale d'une suite)*(Nb de chiffre supplementaire) points.
+Constituer plusieurs suites en 1 deplacement rapporte 100 points par suite supplementaire.
+Faire exploser une bombe rapporte (100/taille minimale d'une suite) points par case detruite.
+Declencher un bonbon d'or rapporte ((100/taille minimale d'une suite)/2) points par case detruite.
