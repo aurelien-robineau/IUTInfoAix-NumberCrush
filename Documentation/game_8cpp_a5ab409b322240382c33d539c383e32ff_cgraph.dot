@@ -1,0 +1,16 @@
+digraph "Menu::EnterLogInMenu"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node90 [label="Menu::EnterLogInMenu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Lunch the log in menu."];
+  Node90 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="Menu::DisplayStringInABox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#a6cc847d2c2acda321ea36ee06e00f9b6",tooltip="Display the string in parameter surrounded by characters (depends on OS)"];
+  Node91 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="ReplaceSpaceByUnderscore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tools_8h.html#aae0c50823c35252c1ea8622946be86aa",tooltip="Replace all '_' by ' ' in String."];
+  Node90 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="AllDirectoriesExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$database_8h.html#a8667bd2d804a5146d63fb2ee97214920",tooltip="Checks if all the directories listed in KDirectoriesName exist."];
+}

@@ -1,0 +1,24 @@
+digraph "AllDirectoriesExists"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="AllDirectoriesExists",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Checks if all the directories listed in KDirectoriesName exist."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Menu::EnterLogInMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#a5ab409b322240382c33d539c383e32ff",tooltip="Lunch the log in menu."];
+  Node2 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Menu::LoadMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#affa474e7df6e9146cfde8773edee089b",tooltip="Manage all functions in namespace Menu."];
+  Node3 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Menu::DisplayRules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#aa5a3b718fc5deecd024d18888d4e4781",tooltip="Display game rules."];
+  Node4 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Menu::EnterLevelMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#a5b3b14785f52d64d6f75b3c0e0a8a24f",tooltip="Lunch the level menu."];
+  Node5 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="EndGame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#a44f9513c93f5cf2a47760ad33c24f2c7",tooltip="Displays end game informations and updates database."];
+}

@@ -1,0 +1,10 @@
+digraph "fichiers" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c821ff8135c2477b4b3326f9c1f0e5de {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_c821ff8135c2477b4b3326f9c1f0e5de.html"];
+    dir_c821ff8135c2477b4b3326f9c1f0e5de [shape=plaintext label="fichiers"];
+    dir_2673c9e4d8ef6a62a07ec1a6f266d9f0 [shape=box label="code_files" color="red" fillcolor="white" style="filled" URL="dir_2673c9e4d8ef6a62a07ec1a6f266d9f0.html"];
+  }
+}

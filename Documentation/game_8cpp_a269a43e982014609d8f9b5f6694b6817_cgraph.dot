@@ -1,0 +1,38 @@
+digraph "RunAutomaticGridManaging"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node143 [label="RunAutomaticGridManaging",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Do everything that is automatic between two player's move."];
+  Node143 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node144 [label="DisplayGame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#a744922a873a1aa568ab4e6cb6b0caa02",tooltip="Display grid and all game infos."];
+  Node144 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node145 [label="DisplayGrid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grid__managing_8h.html#a2fae50ad9f1602636f8921b4a36e752c",tooltip="Displays the grid with colors and character for special boxes."];
+  Node144 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="DisplayRemovedSequences",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#aca4304b010e2575c936036915b01953e",tooltip="Displays each removed sequences, their coordinates and lenght."];
+  Node146 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="UnsignedCoordToChar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$tools_8h.html#abc824c34d4fb84af8c786b21c32ea232",tooltip="Returns the char that match with Number for the grid (1=A, B=2, ...)"];
+  Node143 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="ChangeInColumn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#a69c5818b40755b55072909fbc22b8658",tooltip="Delete (if KRemove is true) all found sequences in columns or fill them with new random values (if KR..."];
+  Node143 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node149 [label="ChangeInLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#a655b71ee8cbc782b5ed2b5891c009a0a",tooltip="Delete (if KRemove is true) all found sequences in lines or fill them with new random values (if KRem..."];
+  Node143 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node150 [label="WaitAnimationMs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#aa1e25f64c26d82dcc40941d72ce67440",tooltip="Ask to wait and makes game sleep."];
+  Node143 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node151 [label="GoUpEmptyBoxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grid__managing_8h.html#adbd3d3512e9acc7dfa78034be0959fb4",tooltip="Makes go up the empty boxes while they can."];
+  Node151 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node152 [label="ArrivalBoxValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grid__managing_8h.html#ac968930d55f171f6eaf0a620515727c4",tooltip="Returns the value of the box on wich one the selected box will arrive."];
+  Node143 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="FillGrid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grid__managing_8h.html#abbbe4b13e3539315811609dca72b8e1d",tooltip="Replace all empty boxes wich are not under a wall with ramdom values."];
+  Node143 -> Node154 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 [label="FindSequenceInColumn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#ab73a1a24e4b8acafebdfeb157f5d0e7f",tooltip="Find all sequences in columns and save their lenght and coordinates."];
+  Node143 -> Node155 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node155 [label="FindSequenceInLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#ab3b8beb40348de7ea09c5029f6e738e3",tooltip="Find all sequences in lines and save their lenght and coordinates."];
+  Node143 -> Node156 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node156 [label="FindActiveGoldenCandies",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#afe4945628ccc7a7bb0e137e5335365f7",tooltip="Finds all golden candies included in a sequence of their type, and triggers them."];
+  Node156 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 [label="DeleteCandies",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grid__managing_8h.html#a1d0b8b552ab0504b0d1509bcabb3f90b",tooltip="Delete all box worth Value, and add points for each deleted box."];
+  Node143 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="CountPoints",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$game_8cpp.html#a5d980fe563e29da987ca956e9e61a857",tooltip="Add points due to the sequences."];
+}

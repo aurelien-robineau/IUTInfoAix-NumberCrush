@@ -1,0 +1,22 @@
+digraph "PlayBot"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="PlayBot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Do all bot stuff, such as unch Bot menu, play the games..."];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="InitGrid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grid__managing_8h.html#a8d162fb695af1d66bf0d541ff9bbdedb",tooltip="Makes a new grid without sequences."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="FindSequenceInColumn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#ab73a1a24e4b8acafebdfeb157f5d0e7f",tooltip="Find all sequences in columns and save their lenght and coordinates."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="FindSequenceInLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#ab3b8beb40348de7ea09c5029f6e738e3",tooltip="Find all sequences in lines and save their lenght and coordinates."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ChangeInColumn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#a69c5818b40755b55072909fbc22b8658",tooltip="Delete (if KRemove is true) all found sequences in columns or fill them with new random values (if KR..."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ChangeInLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__managing_8h.html#a655b71ee8cbc782b5ed2b5891c009a0a",tooltip="Delete (if KRemove is true) all found sequences in lines or fill them with new random values (if KRem..."];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SetWalls",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grid__managing_8h.html#adac2cdbfb1ebbd154972259348727588",tooltip="Set each wall of the selected level."];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ArrivalBoxValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$grid__managing_8h.html#ac968930d55f171f6eaf0a620515727c4",tooltip="Returns the value of the box on wich one the selected box will arrive."];
+}

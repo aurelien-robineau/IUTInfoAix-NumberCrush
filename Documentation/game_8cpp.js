@@ -1,0 +1,25 @@
+var game_8cpp =
+[
+    [ "AskDirection", "game_8cpp.html#a9fc1514f9d3827a0d68238e0e01bd9e2", null ],
+    [ "AskPlayerMoveInfos", "game_8cpp.html#ada8c7965670190c78206c75f6976a748", null ],
+    [ "AskXCoord", "game_8cpp.html#ae13ef2a44737749193419d899f93dd87", null ],
+    [ "AskYCoord", "game_8cpp.html#a0467dc494c99298af4d4e5729a41e03a", null ],
+    [ "ChoseLevel", "game_8cpp.html#ad48fd314cbf19fa8667857a78249d10c", null ],
+    [ "CountPoints", "game_8cpp.html#a5d980fe563e29da987ca956e9e61a857", null ],
+    [ "DisplayGame", "game_8cpp.html#a744922a873a1aa568ab4e6cb6b0caa02", null ],
+    [ "DisplayLevelInfos", "game_8cpp.html#a5e36cefbd80792fac035daacf54e7452", null ],
+    [ "DisplayRemovedSequences", "game_8cpp.html#aca4304b010e2575c936036915b01953e", null ],
+    [ "DisplayRules", "game_8cpp.html#aa5a3b718fc5deecd024d18888d4e4781", null ],
+    [ "DisplayStringInABox", "game_8cpp.html#a6cc847d2c2acda321ea36ee06e00f9b6", null ],
+    [ "EndGame", "game_8cpp.html#a44f9513c93f5cf2a47760ad33c24f2c7", null ],
+    [ "EnterLevelMenu", "game_8cpp.html#a5b3b14785f52d64d6f75b3c0e0a8a24f", null ],
+    [ "EnterLogInMenu", "game_8cpp.html#a5ab409b322240382c33d539c383e32ff", null ],
+    [ "EnterMainMenu", "game_8cpp.html#ac5f3666c720093e5500693c27f77402b", null ],
+    [ "LoadMenu", "game_8cpp.html#affa474e7df6e9146cfde8773edee089b", null ],
+    [ "LunchGame", "game_8cpp.html#ae073a4d456c3e206501e5c7a970aedd3", null ],
+    [ "PlayGame", "game_8cpp.html#a16d69d7370efc79d02a6903d1f2fb5d0", null ],
+    [ "ppal", "game_8cpp.html#a0b1d64ee76933ef8f007f1208cb869a7", null ],
+    [ "RunAutomaticGridManaging", "game_8cpp.html#a269a43e982014609d8f9b5f6694b6817", null ],
+    [ "SayGoodbye", "game_8cpp.html#ad00a754e08238147f56b73956f9bdd11", null ],
+    [ "WaitAnimationMs", "game_8cpp.html#aa1e25f64c26d82dcc40941d72ce67440", null ]
+];
