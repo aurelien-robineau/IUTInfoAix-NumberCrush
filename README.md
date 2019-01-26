@@ -12,4 +12,4 @@ Afin de prévoir la difficulté des niveaux, une IA jouant toute seule à été 
 Elle se contente de faire le meilleur movement possible à chaque tour.
 Connectez vous en temps que "bot" pour l'uiliser. Vous pouvez choisir le nombre de parties à jouer :
 - 1 : vous pourrez voir le bot jouer.
-- >1 : vous ne verrez pas le bot jouer. Vous obtiendrais la moyenne des scores.
+- \>1 : vous ne verrez pas le bot jouer. Vous obtiendrais la moyenne des scores.
